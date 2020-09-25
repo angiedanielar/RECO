@@ -1,0 +1,9 @@
+Supongo que en las instrucciones era configurar el bloque a y no el b, 
+porque no me hace ping al server 11, desde el 6 probé y me hace ping 
+al 2 y al 4 correctamente. En la simulación veo lo siguiente, 
+efectivamente se hace el envio, la configuracion montada mira depsues 
+de ser para todos a quien le interesa, en un primer caso llega a todos 
+y ellos miran si es para ellos y ya de regreso el switch antes de los 
+ultimos dispositivos ya sabe si es o no de su interes. Eso se puede 
+ver al hacer la revision de cada ARP, vemos el origen, destino en el 
+encabezado, aparte del seguimiento del frame paso a paso.

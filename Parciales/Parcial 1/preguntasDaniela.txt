@@ -1,0 +1,15 @@
+Explique cómo funciona el mecanismos de control de flujo Sliding window go back n
+
+
+Slidind Window go back n consiste en que si se dana un mensaje, descarta los demas
+desde ahi en adelante. Se puede enviar una confirmacion por cada mensaje, pero si 
+se llega a perder no habrá mayor lio debido a que si llega otra confirmacion con 
+un numero de secuencia mas grande, se da por check todo de ahí hacia atras.
+
+En los métodos CSMA se habla de 1-persistent, non-persisten t p-persistent, en qué consisten estos mecanismos?
+CSMA 1-persistent: escucho pegado y a penas escuche que se desocupó el canal me meto, pueden haber bastantes colisiones ya que todos van a querer mandarse al mismo tiempo sobre el medio
+non-persisten: doy una vuelta de cierto periodo de tiempo ya establecido, pero cuando no estoy me pueden reemplazar  
+p-persistent: también doy una vuelta pero mi periodo de tiempo lo baso en la estadistica y la probabilidad
+
+Daniela Ruiz
+
